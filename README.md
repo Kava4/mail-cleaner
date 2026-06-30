@@ -8,7 +8,7 @@ Privacy-first, self-hosted Gmail cleanup. Runs **locally** on your machine — n
 
 Scan Spam, Trash, and Inbox, group messages by sender, and bulk delete, block, keep (whitelist), or mass unsubscribe.
 
-**Repository:** [github.com/Kava-4/mail-cleaner](https://github.com/Kava-4/mail-cleaner)
+**Repository:** [github.com/Kava4/mail-cleaner](https://github.com/Kava4/mail-cleaner)
 
 ---
 
@@ -35,7 +35,7 @@ Double-click **`run.bat`** in the project root:
 ### Manual setup
 
 ```bash
-git clone https://github.com/Kava-4/mail-cleaner.git
+git clone https://github.com/Kava4/mail-cleaner.git
 cd mail-cleaner
 npm install
 npm run dev
@@ -133,7 +133,7 @@ Default port: **3000**. For another port: `PORT=3001 npm run start`
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `NEXT_PUBLIC_GITHUB_URL` | `https://github.com/Kava-4/mail-cleaner` | GitHub link shown in the UI |
+| `NEXT_PUBLIC_GITHUB_URL` | `https://github.com/Kava4/mail-cleaner` | GitHub link shown in the UI |
 
 Copy `.env.example` to `apps/web/.env.local` and adjust if needed.
 
